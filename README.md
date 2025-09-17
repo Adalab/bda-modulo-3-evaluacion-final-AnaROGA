@@ -6,10 +6,10 @@
 > Fecha: Septiembre 2025  
 
 ### 📊 DATOS A ANALIZAR
-Los datos con los que se trabajan consisten en dos conjuntos de archivos '.cvs' que, en conjunto, describen el **comportamiento de los clientes** dentro de un programa de lealtad de una **aerolínea**.
--   `Customer Flight Activity`  
+Los datos con los que se trabaja consisten en dos conjuntos de archivos '.cvs' que, en conjunto, describen el **comportamiento de los clientes** dentro de un programa de lealtad de una **aerolínea**.
+-   `Customer Flight Activity`.csv  
 Este archivo contiene información sobre la actividad de vuelo de los clientes, incluyendo el número de vuelos reservados, la distancia volada, puntos acumulados y redimidos, y costos asociados a los puntos redimidos.
--   `Customer Loyalty History`  
+-   `Customer Loyalty History`.csv  
 Este archivo proporciona un perfil detallado de los clientes, incluyendo su ubicación, nivel educativo, ingresos, estado civil, y detalles sobre su membresía en el programa de lealtad (como el tipo de tarjeta, valor de vida del cliente, y fechas de inscripción y cancelación).
 
 
@@ -20,7 +20,8 @@ Este archivo proporciona un perfil detallado de los clientes, incluyendo su ubic
 │
 ├── 📁 data
 │    ├── Customer Flight Activity.csv
-│    └── Customer Loyal History.csv
+│    ├── Customer Loyal History.csv
+│    └── Customers.csv  (archivo final de trabajo)
 │
 ├── 📁 images 
 │    └── mod03_ej_tecnico.ipynb
