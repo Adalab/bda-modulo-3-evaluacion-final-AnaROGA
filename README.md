@@ -89,7 +89,7 @@ Gráficos de análisis
 
 ### 🚀 Cómo Ejecutar el Proyecto
 1. Clonar el repositorio:  
-git clone https://github.com/usuario/proyecto.git
+git clone https://github.com/usuario/proyecto.git  
 cd proyecto
 2. Instalar dependencias:  
 pip install -r requirements.txt
