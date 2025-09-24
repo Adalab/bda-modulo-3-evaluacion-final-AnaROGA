@@ -6,7 +6,7 @@
 > Fecha: Septiembre 2025  
 
 ### 📊 DATOS A ANALIZAR
-Los datos con los que se trabaja consisten en dos conjuntos de archivos '.cvs' que, en conjunto, describen el **comportamiento de los clientes** dentro de un programa de lealtad de una **aerolínea**.
+Los datos con los que se trabaja consisten en dos archivos '.cvs' que, en conjunto, describen el **comportamiento de los clientes** dentro de un programa de lealtad de una **aerolínea**.
 -   `Customer Flight Activity`.csv  
 Este archivo contiene información sobre la actividad de vuelo de los clientes, incluyendo el número de vuelos reservados, la distancia volada, puntos acumulados y redimidos, y costos asociados a los puntos redimidos.
 -   `Customer Loyalty History`.csv  
@@ -24,10 +24,17 @@ Este archivo proporciona un perfil detallado de los clientes, incluyendo su ubic
 │    └── Customers.csv  (archivo final de trabajo)
 │
 ├── 📁 images 
-│    └── mod03_ej_tecnico.ipynb
+│    ├── df_01.csv
+│    ├── df_02.csv
+│    ├── gr_01.csv
+│    └── gr_02.ipynb
 │
 ├── 📁 notebooks
 │    └── mod03_ej_tecnico.ipynb
+│
+├── .gitignore
+│
+├── requirements.txt
 │
 └── README.md
 ```
@@ -80,9 +87,20 @@ Gráficos de análisis
 <img src="images/gr_02.png" width="300">
 
 
+### 🚀 Cómo Ejecutar el Proyecto
+1. Clonar el repositorio:  
+git clone https://github.com/usuario/proyecto.git
+cd proyecto
+2. Instalar dependencias:  
+pip install -r requirements.txt
+3. Abrir el notebook en VSCode, Jupyter Lab/Notebook o Jupyter Web:  
+mod03_ej_tecnico.ipynb
+
+
 ### 🧠 CREADORAS  
 - Ana Robles García (https://github.com/AnaROGA) 
 
 ### ✅ Estado del Proyecto
 
-Finalizado, pendiente de revisión.
+Finalizado.
+Mejoras en proceso.

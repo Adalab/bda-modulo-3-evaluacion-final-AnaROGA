@@ -1,0 +1,15 @@
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.so
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Config VS Code
+.vscode/
